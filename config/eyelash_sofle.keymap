@@ -55,10 +55,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5      &mmv MOVE_Y(300)   &kp F6         &kp F7    &kp F8    &kp F9            &kp F10            &kp SLASH
-&trans      &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4    &mmv MOVE_X(-300)  &kp F11        &kp F12   &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
-&trans      &trans  &trans          &msc SCRL_UP    &trans           &mkp MB5    &mmv MOVE_X(-300)  &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp RIGHT         &kp BACKSLASH      &kp MINUS
-&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans      &mmv MOVE_X(300)   &kp PAGE_DOWN  &kp END   &kp HOME  &kp DELETE        &kp INSERT         &trans
+&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5      &mmv MOVE_Y(-500)  &kp F6         &kp F7    &kp F8    &kp F9            &kp F10            &kp SLASH
+&trans      &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4    &mmv MOVE_Y(500)   &kp F11        &kp F12   &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
+&trans      &trans  &trans          &msc SCRL_UP    &trans           &mkp MB5    &mmv MOVE_X(-500)  &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp RIGHT         &kp BACKSLASH      &kp MINUS
+&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans      &mmv MOVE_X(500)   &kp PAGE_DOWN  &kp END   &kp HOME  &kp DELETE        &kp INSERT         &trans
 &kp C_MUTE  &trans  &trans          &trans          &trans           &trans      &mkp LCLK          &trans         &trans    &trans    &trans            &trans
             >;
 
