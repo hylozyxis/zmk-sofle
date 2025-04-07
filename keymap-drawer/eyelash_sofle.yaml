@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: RIGHT WIN, h: toggle}
   - $$mdi:apple-keyboard-option$$
-  - '2'
+  - {t: /, h: '2', s: '?'}
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -88,10 +88,10 @@ layers:
   - '&mmv MOVE_Y(500)'
   - F11
   - F12
-  - $$mdi:arrow-up-bold$$
+  - {t: /, s: '?'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -100,11 +100,11 @@ layers:
   - '&mkp MB5'
   - '&mmv MOVE_X(-500)'
   - PgUp
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - HOME
   - {t: \, s: '|'}
+  - {t: '=', s: +}
   - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
@@ -114,9 +114,9 @@ layers:
   - '&mmv MOVE_X(500)'
   - PgDn
   - END
-  - HOME
-  - $$mdi:backspace-reverse-outline$$
-  - Ins
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {type: held}
