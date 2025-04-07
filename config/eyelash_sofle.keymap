@@ -42,11 +42,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1      &kp N2     &kp N3    &kp N4     &kp N5         &kp UP_ARROW  &kp N6       &kp N7       &kp N8         &kp N9         &kp N0  &kp GRAVE
-&kp TAB     &kp SQT     &kp COMMA  &kp DOT   &kp P      &kp Y          &kp DOWN      &kp F        &kp G        &kp C          &kp R          &kp L   &kp BACKSPACE
-&kp LCTRL   &kp A       &kp O      &kp E     &kp U      &kp I          &kp LEFT      &kp D        &kp H        &kp T          &kp N          &kp S   &kp ENTER
-&kp LSHFT   &kp SEMI    &kp Q      &kp J     &kp K      &kp X          &kp RIGHT     &kp B        &kp M        &kp W          &kp V          &kp Z   &kp RSHFT
-&kp C_MUTE  &lt 1 CAPS  &kp LGUI   &kp LALT  &kp SPACE  &lt 2 ENTER    &kp ENTER     &lt 3 SPACE  &lt 1 ENTER  &kt RIGHT_WIN  &kp RIGHT_ALT  &mo 2
+&kp ESC     &kp N1      &kp N2     &kp N3    &kp N4     &kp N5         &kp UP_ARROW  &kp N6       &kp N7       &kp N8         &kp N9         &kp N0       &kp GRAVE
+&kp TAB     &kp SQT     &kp COMMA  &kp DOT   &kp P      &kp Y          &kp DOWN      &kp F        &kp G        &kp C          &kp R          &kp L        &kp BACKSPACE
+&kp LCTRL   &kp A       &kp O      &kp E     &kp U      &kp I          &kp LEFT      &kp D        &kp H        &kp T          &kp N          &kp S        &kp ENTER
+&kp LSHFT   &kp SEMI    &kp Q      &kp J     &kp K      &kp X          &kp RIGHT     &kp B        &kp M        &kp W          &kp V          &kp Z        &kp RSHFT
+&kp C_MUTE  &lt 1 CAPS  &kp LGUI   &kp LALT  &kp SPACE  &lt 2 ENTER    &kp ENTER     &lt 3 SPACE  &lt 1 ENTER  &kt RIGHT_WIN  &kp RIGHT_ALT  &lt 2 SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5      &mmv MOVE_Y(-500)  &kp F6         &kp F7    &kp F8    &kp F9            &kp F10            &kp SLASH
-&trans      &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4    &mmv MOVE_Y(500)   &kp F11        &kp F12   &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
-&trans      &trans  &trans          &msc SCRL_UP    &trans           &mkp MB5    &mmv MOVE_X(-500)  &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp RIGHT         &kp BACKSLASH      &kp MINUS
-&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans      &mmv MOVE_X(500)   &kp PAGE_DOWN  &kp END   &kp HOME  &kp DELETE        &kp INSERT         &trans
-&kp C_MUTE  &trans  &trans          &trans          &trans           &trans      &mkp LCLK          &trans         &trans    &trans    &trans            &trans
+&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5      &mmv MOVE_Y(-500)  &kp F6         &kp F7    &kp F8         &kp F9            &kp F10            &trans
+&trans      &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4    &mmv MOVE_Y(500)   &kp F11        &kp F12   &kp SLASH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans      &trans  &trans          &msc SCRL_UP    &trans           &mkp MB5    &mmv MOVE_X(-500)  &kp PAGE_UP    &kp HOME  &kp BACKSLASH  &kp EQUAL         &kp MINUS          &trans
+&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans      &mmv MOVE_X(500)   &kp PAGE_DOWN  &kp END   &trans         &trans            &trans             &trans
+&kp C_MUTE  &trans  &trans          &trans          &trans           &trans      &mkp LCLK          &trans         &trans    &trans         &trans            &trans
             >;
 
             display-name = "layer1";
