@@ -42,31 +42,37 @@
         combo-left-bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 60>;
+            layers = <0>;
         };
 
         combo-right-bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 60>;
+            layers = <0>;
         };
 
         combo-minus {
             bindings = <&kp MINUS>;
             key-positions = <37>;
+            layers = <0>;
         };
 
         combo-equal {
             bindings = <&kp EQUAL>;
             key-positions = <36 60>;
+            layers = <0>;
         };
 
         comba-slash {
             bindings = <&kp SLASH>;
-            key-positions = <22>;
+            key-positions = <22 60>;
+            layers = <0>;
         };
 
         combo-backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <60 35>;
+            layers = <0>;
         };
     };
 
