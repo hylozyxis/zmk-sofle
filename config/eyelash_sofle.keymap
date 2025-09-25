@@ -94,11 +94,11 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5      &mmv MOVE_UP     &kp F6         &kp F7    &kp F8         &kp F9            &kp F10            &trans
-&trans      &trans  &mkp LCLK       &kp UP          &mkp RCLK        &mkp MB4    &mmv MOVE_DOWN   &kp F11        &kp F12   &kp SLASH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans      &trans  &kp LEFT        &kp DOWN        &kp RIGHT        &mkp MB5    &mmv MOVE_LEFT   &kp PAGE_UP    &kp HOME  &kp BACKSLASH  &kp EQUAL         &kp MINUS          &trans
-&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans      &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp END   &trans         &trans            &trans             &trans
-&kp C_MUTE  &trans  &trans          &trans          &trans           &trans      &mkp LCLK        &trans         &trans    &trans         &trans            &trans
+&kp ESCAPE  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5       &mmv MOVE_UP     &kp F6         &kp F7    &kp F8         &kp F9            &kp F10            &trans
+&trans      &trans  &mkp LCLK       &kp UP          &mkp RCLK        &mkp MB4     &mmv MOVE_DOWN   &kp F11        &kp F12   &kp SLASH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans      &trans  &kp LEFT        &kp DOWN        &kp RIGHT        &mkp MB5     &mmv MOVE_LEFT   &kp PAGE_UP    &kp HOME  &kp BACKSLASH  &kp EQUAL         &kp MINUS          &trans
+&trans      &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans       &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp END   &trans         &trans            &trans             &trans
+&kp C_MUTE  &trans  &trans          &trans          &trans           &kp GLOBE    &mkp LCLK        &trans         &trans    &trans         &trans            &trans
             >;
 
             display-name = "SYM";
